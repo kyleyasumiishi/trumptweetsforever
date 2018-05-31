@@ -1,7 +1,7 @@
 const Twit = require('twit');
 const config = require('./config');
 const twitter = new Twit(config);
-const options = { screen_name: 'realDonaldTrump', tweet_mode: 'extended', count: 40000 };
+const options = { screen_name: 'kyleyasumiishi', tweet_mode: 'extended', count: 40000 };
 let tweetArray = [];
 
 twitter.get('statuses/user_timeline', options, function(err, data) {
@@ -19,7 +19,7 @@ twitter.get('statuses/user_timeline', options, function(err, data) {
     return tweetArray;
 }).then((result) => {
     console.log('Number of tweets: ', tweetArray.length);
-    console.log(typeof tweetArray[0].user_id);
+    console.log(tweetArray);
     return tweetArray;
 });
 // }).then((result) => {
