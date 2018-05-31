@@ -1,0 +1,11 @@
+{
+  "name": "trumptweetsforever",
+  "version": "0.0.0",
+  "description": "Store Donald Trump's Tweets in the Ethereum Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Yasumiishi (k.yasumiishi@gmail.com)",
+  "license": "ISC"
+}
