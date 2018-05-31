@@ -1,5 +1,3 @@
-let tweets = [];
+let tweetArray = [];
 
-console.log(Array.isArray(tweets));
-
-module.exports = { tweets: tweets };
+module.exports = { tweetArray: tweetArray };
