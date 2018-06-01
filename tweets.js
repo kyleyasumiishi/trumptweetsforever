@@ -20,7 +20,7 @@ twitter.get('statuses/user_timeline', options, function(err, data) {
 }).then((result) => {
     console.log('Number of tweets: ', tweetArray.length);
     console.log(tweetArray);
-    return tweetArray;
+    // return tweetArray;
 });
 // }).then((result) => {
 //     for (let i = 0; i < tweetArray.length; i++) {
