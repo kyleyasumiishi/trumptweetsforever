@@ -1,6 +1,6 @@
 const Twit = require('twit');
 const config = require('./config');
-const twitter = new Twit(config);
+const twitter = new Twit(config.Twitter);
 
 console.log('Starting stream code');
 

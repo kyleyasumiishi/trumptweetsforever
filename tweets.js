@@ -1,6 +1,6 @@
 const Twit = require('twit');
 const config = require('./config');
-const twitter = new Twit(config);
+const twitter = new Twit(config.Twitter);
 const options = { screen_name: 'kyleyasumiishi', tweet_mode: 'extended', count: 40000 };
 let tweetArray = [];
 
